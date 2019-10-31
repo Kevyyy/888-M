@@ -1,0 +1,15 @@
+<div id="padding"></div>
+
+{{#each products }}
+    <div id="container">
+        {{#each this }}
+                <div class="thumbnail">
+                    <a href="/products/{{this.name}}">
+                    <img src={{this.imagePath}} alt="...">
+                     </a>
+                        <h3 id="title">{{ this.title }}</h3>
+                </div>
+        {{/each}}
+    </div>
+{{/each}}
+</div>

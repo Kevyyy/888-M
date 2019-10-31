@@ -1,0 +1,36 @@
+body {
+  margin:0px;
+  padding:0px;
+  background-color:#D3D3D3;
+}
+#padding{
+  padding-top:180px;
+}
+#container{
+  display:grid;
+  grid-template-columns: 20% 20% 20% 20%;
+}
+.thumbnail {
+  text-align: center;
+  padding-left:350px;
+  height: 350px;
+}
+#description{
+  text-align:left;
+}
+.thumbnail img {
+  max-height: 150px;
+  text-align: center;
+  transition: transform .2s;
+}
+
+.thumbnail img:hover{
+  -ms-transform: scale(1.1); /* IE 9 */
+  -webkit-transform: scale(1.1); /* Safari 3-8 */
+  transform: scale(1.1); 
+}
+
+#title{
+  font-family: Georgia;
+  font-size: 8px;
+}
